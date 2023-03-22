@@ -6,7 +6,7 @@
  
 
 #>
-azureadpreview\Connect-azuread
+Connect-azuread
 ##Get all guest users
 $guests = Get-AzureADUser -Filter "userType eq 'Guest'" -All $true 
 
